@@ -18,6 +18,7 @@ public class Main {
         familyTree.makeTree(familyTree.makeFamily(familyTree.addNewChild(child2),randomPartner2), tree);
         Children child3 = child2.makeChild(randomPartner2,child2);
         familyTree.makeTree(familyTree.addNewChild(child3), tree);
+        familyTree.makeTree(familyTree.makeFamily(familyTree.addNewChild(adam),randomPartner2), tree);
         System.out.println(familyTree);
     }
 }
