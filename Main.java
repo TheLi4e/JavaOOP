@@ -3,10 +3,7 @@ import java.util.List;
 
 public class Main {
     public static void main(String[] args) {
-        FamilyTree familyTree = new FamilyTree();
-        List<ArrayList<Children>> tree = new ArrayList<>();
-        Adam adam = new Adam();
-        Eva eva = new Eva();
+        //		Task1
 
         Children child1 = new Children(eva,adam,"Тор", "Одинсон","Одинович","01.01.0005",3);
         Children randomPartner1 = new Children(eva, adam,"Фрейя","Локсон","Хелевна", "01.02.0006", 4);
